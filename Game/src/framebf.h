@@ -1,0 +1,11 @@
+void framebf_init();
+void framebf_init1();
+void drawPixelARGB32(int x, int y, unsigned int attr);
+void drawRectARGB32(int x1, int y1, int x2, int y2, unsigned int attr, int fill);
+void drawlineARGB32(int x1,int y1, int x2, int y2, unsigned int attr);
+void drawChar(unsigned char ch, int x, int y, unsigned char attr);
+void drawPixel(int x, int y, unsigned char attr);
+void drawString(int x, int y, char *s, unsigned char attr);
+void display_frame(unsigned int frame_image[], int x, int y, int width,int height); 
+void drawChar1(unsigned char ch, int x, int y, unsigned char attr, int zm);
+void drawString1(int x, int y, char *s, unsigned char attr, int zm);
